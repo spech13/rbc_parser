@@ -13,8 +13,8 @@ news = [
     )
 ]
 
-content = ""
-for num, new in enumerate(news):
-    content += f"{num}.{new.title}\n\n{new.get_content()}\n\n"
-
-print(content)
+print(
+    "".join(
+        f"{num}.{new.title}\n\n{new.get_content()}\n\n" for num, new in enumerate(news)
+    )
+)
