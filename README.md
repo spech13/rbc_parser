@@ -8,7 +8,7 @@ peparation:
 1. execute command: git clone https://github.com/spech13/rbc_parser.git
 2. go to "rbc_parser/app" directory
 3. execute command: python main.py
-<pre>
+</pre>
 
 verifying:
 <pre>
